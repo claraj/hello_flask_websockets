@@ -1,4 +1,5 @@
-  var socket = io.connect('https://' + document.domain + ':' + location.port);
+//var socket = io.connect('https://' + document.domain + ':' + location.port);
+var socket = io.connect('https://thawing-depths-73556.herokuapp.com/socket.io/')
 
   socket.on('connect', function() {
             socket.emit('hello', {data: 'I\'m connected!'});
