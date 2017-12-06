@@ -1,5 +1,5 @@
 //var socket = io.connect('https://' + document.domain + ':' + location.port);
-var socket = io.connect('https://thawing-depths-73556.herokuapp.com/socket.io')
+var socket = io.connect('https://thawing-depths-73556.herokuapp.com')
 
 socket.on('connect', function() {
   console.log('Connected to websocket server');
